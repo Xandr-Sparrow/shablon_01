@@ -286,6 +286,7 @@ h1 {
     }
 
     li {
+      cursor: pointer;
       display: inline-block;
       border-radius: 50%;
       width: 0.625rem;
@@ -358,4 +359,9 @@ h1 {
       }
     }
   }
+}
+
+.tel {
+  color: #000 !important;
+  text-decoration: none
 }

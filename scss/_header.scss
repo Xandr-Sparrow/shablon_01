@@ -129,6 +129,14 @@
   }
 }
 
+.menu-h {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
 .nav-hidden {
   @media (max-width: 500px) {
     display: none;
@@ -142,7 +150,7 @@
 }
 
 .hidden__info {
-  @media (min-width: 500px) {
+  @media (min-width: 501px) {
     display: none;
   }
 }
@@ -150,6 +158,11 @@
 .hidden__element-border {
   border: 0.2rem solid rgba(0, 0, 0, 0.486);
   width: 80%;
+  margin: .5rem 0;
+}
+
+.menu__text {
+  color: #222222;
 }
 
 
