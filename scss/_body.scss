@@ -1,0 +1,21 @@
+html,
+body {
+  font-size: 16px;
+
+  @media (max-width: 800) {
+    font-size: 14px;
+  }
+
+  @media (max-width: 500) {
+    font-size: 12px;
+  }
+}
+
+.body-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 120rem;
+  overflow: hidden;
+  margin: 0px auto;
+  width: 100%;
+}
