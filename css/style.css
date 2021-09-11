@@ -733,8 +733,6 @@ h1 {
 
 .top-line__menu li:hover span {
   display: block;
-  -webkit-box-shadow: inset 0 0 30px rgba(182, 182, 223, 0.877);
-          box-shadow: inset 0 0 30px rgba(182, 182, 223, 0.877);
 }
 
 .top-line__menu {
@@ -810,7 +808,7 @@ h1 {
 
 .hidden__element-border {
   border: 0.2rem solid rgba(0, 0, 0, 0.486);
-  width: 80%;
+  width: 40%;
   margin: .5rem 0;
 }
 
@@ -870,7 +868,7 @@ h1 {
   -webkit-transition: left .5s;
   transition: left .5s;
   z-index: 3;
-  width: 1.5rem;
+  width: 2.5rem;
   -webkit-transform: translateZ(0);
   -webkit-backface-visibility: hidden;
 }
@@ -878,9 +876,9 @@ h1 {
 /*общие стили полосок*/
 .btn-menu span {
   display: block;
-  height: 0.2rem;
+  height: 0.4rem;
   background-color: #2b343c;
-  margin: 0.3rem 0 0;
+  margin: 0.4rem 0 0;
   -webkit-transition: all .1s linear .5s;
   transition: all .1s linear .5s;
   position: relative;
@@ -893,7 +891,7 @@ h1 {
 
 /*при нажатии на бургер двигаем его и делаем другой фон бургеру*/
 .hidden-menu-ticker:checked ~ .btn-menu {
-  left: 93%;
+  left: 88%;
   background-color: #2b343c;
 }
 
@@ -904,7 +902,7 @@ h1 {
 
 .hidden-menu-ticker:checked ~ .btn-menu span.first {
   -webkit-transform: rotate(45deg);
-  top: 7px;
+  top: 0.6rem;
   background-color: #fff;
 }
 
@@ -914,7 +912,7 @@ h1 {
 
 .hidden-menu-ticker:checked ~ .btn-menu span.third {
   -webkit-transform: rotate(-45deg);
-  top: -7px;
+  top: -0.6rem;
   background-color: #fff;
 }
 
@@ -1993,7 +1991,7 @@ h1 {
 
 @media (max-width: 648px) {
   .contact__block-2 .block-2__message .block-2__button {
-    margin: 1rem 0 0 0;
+    margin: 3rem 0;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
