@@ -27,14 +27,6 @@
 }
 
 .our-services__wrap {
-  // display: flex;
-  // flex-direction: row;
-  // flex-wrap: wrap;
-  // justify-content: space-around;
-  // align-items: center;
-  // align-content: space-between;
-  // gap: 1.875rem;
-
   display: grid;
   grid: repeat(auto-fit, minmax(100px, 1fr)) / 1fr 1fr 1fr;
   grid-gap: 1.875rem;
