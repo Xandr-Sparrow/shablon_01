@@ -36,34 +36,33 @@
 
   .slide {
     margin: 0 auto;
-    display: flex;
-    flex-direction: row;
+    // display: flex;
+    // flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     width: 100%;
     padding-bottom: 3.125rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
 
-    @media (max-width: 550px) {
-      padding-bottom: 1rem;
+    @media (max-width: 800px) {
+      grid-template-columns: 1fr 1fr;
+
     }
 
-    @media (max-width: 519px) {
-      flex-direction: column;
-      align-items: center;
+    @media (max-width: 550px) {
+      grid-template-columns: 1fr;
+      padding: 0 3rem 1rem 3rem;
+      gap: 0;
     }
 
     img {
       cursor: pointer;
-      text-align: center center;
-      max-width: 100%;
+      width: 100%;
+      height: 100%;
       object-fit: cover;
-      overflow: hidden;
-
-      @media (max-width: 519px) {
-        width: 70%;
-        // отрицательные отступы, чтобы убрать отступы самих картинок
-        margin: -1.5rem 0;
-      }
     }
   }
 }
