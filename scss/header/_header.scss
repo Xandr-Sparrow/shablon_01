@@ -6,7 +6,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  // flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 1rem;
 
   @media (max-width: 879px) {
