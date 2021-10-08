@@ -1,27 +1,19 @@
-.top-line {
+.header {
   max-width: 69.75rem;
   width: 100%;
-  margin: 0 auto;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-}
-
-.top-line__row {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   margin: 1.375rem auto;
-
-  @media (max-width: 1150px) {
-    padding: 0 .5rem;
-  }
 
   @media (max-width: 840px) {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+  }
+
+  @media (max-width: 1150px) {
+    padding: 0 .5rem;
   }
 }
 
@@ -47,7 +39,7 @@
   }
 }
 
-.top-line__info {
+.header__info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -62,12 +54,9 @@
   }
 }
 
-.top-line__ul {
+.header__ul {
   width: 100%;
-  // display: flex;
-  // flex-direction: row;
   justify-content: space-between;
-  // flex-wrap: wrap;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 
@@ -94,13 +83,13 @@
       }
     }
 
-    .top-line__text {
+    .header__text {
       margin-left: 0.9375rem;
     }
   }
 }
 
-.top-line__menu li:hover {
+.header__menu li:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 
   span {
@@ -108,7 +97,7 @@
   }
 }
 
-.top-line__menu {
+.header__menu {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -171,7 +160,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  // position: fixed;
   position: absolute;
   padding: 10px;
   margin: 0;
@@ -182,8 +170,6 @@
   left: -100%;
   transition: left .5s;
   z-index: 2;
-  // -webkit-transform: translateZ(0);
-  // -webkit-backface-visibility: hidden;
 }
 
 .hidden-menu li a {
@@ -206,7 +192,6 @@
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 30%;
   padding: 2px;
-  // position: fixed;
   position: absolute;
   top: 0.5rem;
   left: 0.5rem;
@@ -214,8 +199,7 @@
   transition: left .5s;
   z-index: 3;
   width: 2.5rem;
-  -webkit-transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
 }
 
 /*общие стили полосок*/
@@ -236,7 +220,6 @@
 /*при нажатии на бургер двигаем его и делаем другой фон бургеру*/
 .hidden-menu-ticker:checked~.btn-menu {
   left: 88%;
-
   background-color: #2b343c;
 }
 
@@ -246,7 +229,7 @@
 }
 
 .hidden-menu-ticker:checked~.btn-menu span.first {
-  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
   top: 0.6rem;
   background-color: #fff;
 }
@@ -256,7 +239,7 @@
 }
 
 .hidden-menu-ticker:checked~.btn-menu span.third {
-  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
   top: -0.6rem;
   background-color: #fff;
 }
