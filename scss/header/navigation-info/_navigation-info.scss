@@ -2,7 +2,7 @@
 @import "navigation/navigation";
 
 
-&__info {
+.navigation-info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -14,4 +14,6 @@
   @media (max-width: 340px) {
     display: none;
   }
+  &__info {}
+
 }
