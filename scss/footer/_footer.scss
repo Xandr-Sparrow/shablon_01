@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0;
+
+  @media (max-width: 1150px) {
+    padding: 3rem 1rem;
+  }
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  margin: 0 auto;
+  max-width: 69.75rem;
+
+  &__copyright-license {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
+    color: #000000;
+  }
+}
