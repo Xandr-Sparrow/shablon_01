@@ -80,13 +80,13 @@ img {
   font-weight: 900;
 }
 
-.font-lato-black_24-h2 {
+.font-lato-black_24-gray {
   font-size: 24px;
   line-height: 33px;
   color: #BDBDBD;
 }
 
-.font-lato-black_55-title-uppercase {
+.font-lato-black_55-uppercase-black {
   font-size: 55px;
   line-height: 66px;
   letter-spacing: 0.1em;
@@ -94,13 +94,13 @@ img {
   color: #000000;
 }
 
-.font-lato-black_24-text-white {
+.font-lato-black_24-white {
   font-size: 24px;
   line-height: 30px;
   color: #FFFFFF;
 }
 
-.font-lato-black_18-text {
+.font-lato-black_18-black {
   font-size: 18px;
   line-height: 25px;
   color: #000000;
@@ -112,7 +112,7 @@ img {
   font-weight: bold;
 }
 
-.font-lato-bold_14-menu {
+.font-lato-bold_14-uppercase-black {
   font-size: 14px;
   line-height: 17px;
   letter-spacing: 0.1em;
@@ -120,17 +120,15 @@ img {
   color: #222222;
 }
 
-.font-lato-bold_14-card-text {
+.font-lato-bold_14-black {
   font-size: 14px;
   line-height: 18px;
   color: #000000;
 }
 
-.font-lato-bold_14-card-a-blue {
+.font-lato-bold_14-blue {
   font-size: 14px;
   line-height: 17px;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
   color: #005FA3;
 }
 
@@ -140,34 +138,100 @@ img {
   font-weight: 300;
 }
 
-.font-lato-light_18-text-black {
+.font-lato-light_18-black {
   font-size: 18px;
   line-height: 25px;
   color: #000000;
 }
 
-.font-lato-light_18-text-white {
+.font-lato-light_18-white {
   font-size: 18px;
   line-height: 25px;
   color: #FFFFFF;
 }
 
-.font-lato-light_21-text-white {
+.font-lato-light_21-white {
   font-size: 21px;
   line-height: 29px;
   color: #FFFFFF;
 }
 
-.font-lato-light_21-text-gray {
+.font-lato-light_21-gray {
   font-size: 21px;
   line-height: 29px;
   color: #BDBDBD;
 }
 
-.font-lato-light_14-text {
+.font-lato-light_14-black {
   font-size: 14px;
   line-height: 19px;
   color: #000000;
+}
+
+.font-lato-regular {
+  font-family: "Lato-Regular";
+  font-style: normal;
+  font-weight: normal;
+}
+
+.font-lato-regular_13-black {
+  font-size: 13px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.font-lato-regular_18-white {
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.font-lato-regular_14-gray {
+  font-size: 14px;
+  line-height: 19px;
+  color: #4F4F4F;
+}
+
+.font-lato-regular_16-white {
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.font-merriweather-black {
+  font-family: "Merriweather-Black";
+  font-style: normal;
+  font-weight: 900;
+}
+
+.font-merriweather-black_36-blue {
+  font-size: 36px;
+  line-height: 50px;
+  color: #005FA3;
+}
+
+.font-merriweather-black_48-black {
+  font-size: 48px;
+  line-height: 69px;
+  color: #333333;
+}
+
+.font-merriweather-black_48-white {
+  font-size: 48px;
+  line-height: 69px;
+  color: #FFFFFF;
+}
+
+.font-merriweather-bold {
+  font-family: "Merriweather-Bold";
+  font-style: normal;
+  font-weight: bold;
+}
+
+.font-merriweather-bold_48-white {
+  font-size: 48px;
+  line-height: 66px;
+  color: #FFFFFF;
 }
 
 h2 {

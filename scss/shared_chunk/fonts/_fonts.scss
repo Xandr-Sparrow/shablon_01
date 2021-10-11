@@ -42,13 +42,13 @@
   font-style: normal;
   font-weight: 900;
 
-  &_24-h2 {
+  &_24-gray {
     font-size: 24px;
     line-height: 33px;
     color: #BDBDBD;
   }
 
-  &_55-title-uppercase {
+  &_55-uppercase-black {
     font-size: 55px;
     line-height: 66px;
     letter-spacing: 0.1em;
@@ -56,26 +56,25 @@
     color: #000000;
   }
 
-  &_24-text-white {
+  &_24-white {
     font-size: 24px;
     line-height: 30px;
     color: #FFFFFF;
   }
 
-  &_18-text {
+  &_18-black {
     font-size: 18px;
     line-height: 25px;
     color: #000000;
   }
 }
 
-
 .font-lato-bold {
   font-family: "Lato-Bold";
   font-style: normal;
   font-weight: bold;
 
-  &_14-menu {
+  &_14-uppercase-black {
     font-size: 14px;
     line-height: 17px;
     letter-spacing: 0.1em;
@@ -83,16 +82,15 @@
     color: #222222;
   }
 
-  &_14-card-text {
+  &_14-black {
     font-size: 14px;
     line-height: 18px;
     color: #000000;
   }
 
-  &_14-card-a-blue {
+  &_14-blue {
     font-size: 14px;
     line-height: 17px;
-    text-decoration-line: underline;
     color: #005FA3;
   }
 }
@@ -102,33 +100,99 @@
   font-style: normal;
   font-weight: 300;
 
-  &_18-text-black {
+  &_18-black {
     font-size: 18px;
     line-height: 25px;
     color: #000000;
   }
 
-  &_18-text-white {
+  &_18-white {
     font-size: 18px;
     line-height: 25px;
     color: #FFFFFF;
   }
 
-  &_21-text-white {
+  &_21-white {
     font-size: 21px;
     line-height: 29px;
     color: #FFFFFF;
   }
 
-  &_21-text-gray {
+  &_21-gray {
     font-size: 21px;
     line-height: 29px;
     color: #BDBDBD;
   }
 
-  &_14-text {
+  &_14-black {
     font-size: 14px;
     line-height: 19px;
     color: #000000;
+  }
+}
+
+.font-lato-regular {
+  font-family: "Lato-Regular";
+  font-style: normal;
+  font-weight: normal;
+
+  &_13-black {
+    font-size: 13px;
+    line-height: 17px;
+    color: #000000;
+  }
+
+  &_18-white {
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+  }
+
+  &_14-gray {
+    font-size: 14px;
+    line-height: 19px;
+    color: #4F4F4F;
+  }
+
+  &_16-white {
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+}
+
+.font-merriweather-black {
+  font-family: "Merriweather-Black";
+  font-style: normal;
+  font-weight: 900;
+
+  &_36-blue {
+    font-size: 36px;
+    line-height: 50px;
+    color: #005FA3;
+  }
+
+  &_48-black {
+    font-size: 48px;
+    line-height: 69px;
+    color: #333333;
+  }
+
+  &_48-white {
+    font-size: 48px;
+    line-height: 69px;    
+    color: #FFFFFF;
+  }
+}
+
+.font-merriweather-bold {
+  font-family: "Merriweather-Bold";
+  font-style: normal;
+  font-weight: bold;
+
+  &_48-white {
+    font-size: 48px;
+    line-height: 66px;
+    color: #FFFFFF;
   }
 }
