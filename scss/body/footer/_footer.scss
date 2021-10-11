@@ -3,19 +3,16 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem 0;
 
-  @media (max-width: 1150px) {
-    padding: 3rem 1rem;
-  }
+  margin: 0 auto;
+  max-width: 1110px;
+  padding: 3rem 0;
 
   @media (max-width: 500px) {
     flex-direction: column;
+    
     padding: 1rem;
   }
-
-  margin: 0 auto;
-  max-width: 69.75rem;
 
   &__copyright-license {
     font-family: Lato;

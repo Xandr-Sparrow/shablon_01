@@ -1,0 +1,134 @@
+// Шрифты
+
+// Шрифты заголовков H2
+@font-face {
+  font-family: 'Lato-Black';
+  src: url(../../fonts/Lato-Black.ttf);
+}
+
+// Шрифт для меню и блока карточек "О нас"
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url(../../fonts/Lato-Bold.ttf);
+}
+
+// Шрифт для основных текстов
+@font-face {
+  font-family: 'Lato-Light';
+  src: url(../../fonts/Lato-Light.ttf);
+}
+
+// Шрифт для блока инфо, кнопок и т.д.
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url(../../fonts/Lato-Regular.ttf);
+}
+
+// Шрифт для логотипа и титров
+@font-face {
+  font-family: 'Merriweather-Black';
+  src: url(../../fonts/Merriweather-Black.ttf);
+}
+
+// Шрифт для первого экрана
+@font-face {
+  font-family: 'Merriweather-Bold';
+  src: url(../../fonts/Merriweather-Bold.ttf);
+}
+
+
+.font-lato-black {
+  font-family: "Lato-Black";
+  font-style: normal;
+  font-weight: 900;
+
+  &_24-h2 {
+    font-size: 24px;
+    line-height: 33px;
+    color: #BDBDBD;
+  }
+
+  &_55-title-uppercase {
+    font-size: 55px;
+    line-height: 66px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  &_24-text-white {
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+  }
+
+  &_18-text {
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+  }
+}
+
+
+.font-lato-bold {
+  font-family: "Lato-Bold";
+  font-style: normal;
+  font-weight: bold;
+
+  &_14-menu {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #222222;
+  }
+
+  &_14-card-text {
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+  }
+
+  &_14-card-a-blue {
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #005FA3;
+  }
+}
+
+.font-lato-light {
+  font-family: "Lato-Light";
+  font-style: normal;
+  font-weight: 300;
+
+  &_18-text-black {
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+  }
+
+  &_18-text-white {
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+  }
+
+  &_21-text-white {
+    font-size: 21px;
+    line-height: 29px;
+    color: #FFFFFF;
+  }
+
+  &_21-text-gray {
+    font-size: 21px;
+    line-height: 29px;
+    color: #BDBDBD;
+  }
+
+  &_14-text {
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+  }
+}
