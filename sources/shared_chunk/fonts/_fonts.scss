@@ -3,37 +3,37 @@
 // Шрифты заголовков H2
 @font-face {
   font-family: 'Lato-Black';
-  src: url(../../fonts/Lato-Black.ttf);
+  src: url(fonts/Lato-Black.ttf);
 }
 
 // Шрифт для меню и блока карточек "О нас"
 @font-face {
   font-family: 'Lato-Bold';
-  src: url(../../fonts/Lato-Bold.ttf);
+  src: url(fonts/Lato-Bold.ttf);
 }
 
 // Шрифт для основных текстов
 @font-face {
   font-family: 'Lato-Light';
-  src: url(../../fonts/Lato-Light.ttf);
+  src: url(fonts/Lato-Light.ttf);
 }
 
 // Шрифт для блока инфо, кнопок и т.д.
 @font-face {
   font-family: 'Lato-Regular';
-  src: url(../../fonts/Lato-Regular.ttf);
+  src: url(fonts/Lato-Regular.ttf);
 }
 
 // Шрифт для логотипа и титров
 @font-face {
   font-family: 'Merriweather-Black';
-  src: url(../../fonts/Merriweather-Black.ttf);
+  src: url(fonts/Merriweather-Black.ttf);
 }
 
 // Шрифт для первого экрана
 @font-face {
   font-family: 'Merriweather-Bold';
-  src: url(../../fonts/Merriweather-Bold.ttf);
+  src: url(fonts/Merriweather-Bold.ttf);
 }
 
 
@@ -42,13 +42,19 @@
   font-style: normal;
   font-weight: 900;
 
-  &_24-gray {
+  &__24-gray {
+    font-family: "Lato-Black";
+    font-style: normal;
+    font-weight: 900;
     font-size: 24px;
     line-height: 33px;
     color: #BDBDBD;
   }
 
-  &_55-uppercase-black {
+  &__55-uppercase-black {
+    font-family: "Lato-Black";
+    font-style: normal;
+    font-weight: 900;
     font-size: 55px;
     line-height: 66px;
     letter-spacing: 0.1em;
@@ -56,13 +62,19 @@
     color: #000000;
   }
 
-  &_24-white {
+  &__24-white {
+    font-family: "Lato-Black";
+    font-style: normal;
+    font-weight: 900;
     font-size: 24px;
     line-height: 30px;
     color: #FFFFFF;
   }
 
-  &_18-black {
+  &__18-black {
+    font-family: "Lato-Black";
+    font-style: normal;
+    font-weight: 900;
     font-size: 18px;
     line-height: 25px;
     color: #000000;
@@ -74,7 +86,10 @@
   font-style: normal;
   font-weight: bold;
 
-  &_14-uppercase-black {
+  &__14-uppercase-black {
+    font-family: "Lato-Bold";
+    font-style: normal;
+    font-weight: bold;
     font-size: 14px;
     line-height: 17px;
     letter-spacing: 0.1em;
@@ -82,13 +97,19 @@
     color: #222222;
   }
 
-  &_14-black {
+  &__14-black {
+    font-family: "Lato-Bold";
+    font-style: normal;
+    font-weight: bold;
     font-size: 14px;
     line-height: 18px;
     color: #000000;
   }
 
-  &_14-blue {
+  &__14-blue {
+    font-family: "Lato-Bold";
+    font-style: normal;
+    font-weight: bold;
     font-size: 14px;
     line-height: 17px;
     color: #005FA3;
@@ -100,31 +121,46 @@
   font-style: normal;
   font-weight: 300;
 
-  &_18-black {
+  &__18-black {
+    font-family: "Lato-Light";
+    font-style: normal;
+    font-weight: 300;
     font-size: 18px;
     line-height: 25px;
     color: #000000;
   }
 
-  &_18-white {
+  &__18-white {
+    font-family: "Lato-Light";
+    font-style: normal;
+    font-weight: 300;
     font-size: 18px;
     line-height: 25px;
     color: #FFFFFF;
   }
 
-  &_21-white {
+  &__21-white {
+    font-family: "Lato-Light";
+    font-style: normal;
+    font-weight: 300;
     font-size: 21px;
     line-height: 29px;
     color: #FFFFFF;
   }
 
-  &_21-gray {
+  &__21-gray {
+    font-family: "Lato-Light";
+    font-style: normal;
+    font-weight: 300;
     font-size: 21px;
     line-height: 29px;
     color: #BDBDBD;
   }
 
-  &_14-black {
+  &__14-black {
+    font-family: "Lato-Light";
+    font-style: normal;
+    font-weight: 300;
     font-size: 14px;
     line-height: 19px;
     color: #000000;
@@ -136,25 +172,37 @@
   font-style: normal;
   font-weight: normal;
 
-  &_13-black {
+  &__13-black {
+    font-family: "Lato-Regular";
+    font-style: normal;
+    font-weight: normal;
     font-size: 13px;
     line-height: 17px;
     color: #000000;
   }
 
-  &_18-white {
+  &__18-white {
+    font-family: "Lato-Regular";
+    font-style: normal;
+    font-weight: normal;
     font-size: 18px;
     line-height: 25px;
     color: #FFFFFF;
   }
 
-  &_14-gray {
+  &__14-gray {
+    font-family: "Lato-Regular";
+    font-style: normal;
+    font-weight: normal;
     font-size: 14px;
     line-height: 19px;
     color: #4F4F4F;
   }
 
-  &_16-white {
+  &__16-white {
+    font-family: "Lato-Regular";
+    font-style: normal;
+    font-weight: normal;
     font-size: 16px;
     line-height: 22px;
     color: #FFFFFF;
@@ -166,21 +214,30 @@
   font-style: normal;
   font-weight: 900;
 
-  &_36-blue {
+  &__36-blue {
+    font-family: "Merriweather-Black";
+    font-style: normal;
+    font-weight: 900;
     font-size: 36px;
     line-height: 50px;
     color: #005FA3;
   }
 
-  &_48-black {
+  &__48-black {
+    font-family: "Merriweather-Black";
+    font-style: normal;
+    font-weight: 900;
     font-size: 48px;
     line-height: 69px;
     color: #333333;
   }
 
-  &_48-white {
+  &__48-white {
+    font-family: "Merriweather-Black";
+    font-style: normal;
+    font-weight: 900;
     font-size: 48px;
-    line-height: 69px;    
+    line-height: 69px;
     color: #FFFFFF;
   }
 }
@@ -190,7 +247,10 @@
   font-style: normal;
   font-weight: bold;
 
-  &_48-white {
+  &__48-white {
+    font-family: "Merriweather-Bold";
+    font-style: normal;
+    font-weight: bold;
     font-size: 48px;
     line-height: 66px;
     color: #FFFFFF;
