@@ -20,16 +20,6 @@
 }
 
 
-
-.contact__block-1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: stretch;
-  height: 100%;
-  flex-grow: 1;
-}
-
 .title-white {
   color: white;
 }
@@ -100,15 +90,6 @@
   }
 }
 
-.contact__block-2 {
-  display: flex;
-  flex-direction: column;
-  align-content: space-around;
-
-  gap: 2.1875rem;
-  flex-grow: 1;
-  padding-top: 0.8125rem;
-}
 
 .block-2__name {
   display: flex;
