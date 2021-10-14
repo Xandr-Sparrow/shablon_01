@@ -1,40 +1,25 @@
+@import "contact__container/contact__container";
+
+
 .contact {
   background: url(/img/Rectangle.png);
   display: flex;
   flex-direction: column;
   justify-content: center;
+
   position: relative;
 
   &__filter {
     display: flex;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    
     width: 100%;
     height: 100%;
     position: absolute;
   }
 }
 
-.contact__container {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  max-width: 69.75rem;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  padding: 7.625rem 0 8.75rem 0;
 
-  @media (max-width: 1150px) {
-    padding: 7.625rem 1rem 8.75rem 1rem;
-  }
-
-  @media (max-width: 648px) {
-    padding: 1rem;
-  }
-}
 
 .contact__block-1 {
   display: flex;
