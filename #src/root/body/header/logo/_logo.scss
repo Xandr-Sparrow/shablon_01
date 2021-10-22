@@ -1,0 +1,11 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__text {
+    display: block;
+    color: #005FA3;
+    margin-left: 1.875rem;
+  }
+}

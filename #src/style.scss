@@ -1,5 +1,5 @@
-@import "clean";
+@import "root/shared_chunk/clean";
 
-@import "shared_chunk/shared_chunk";
+@import "root/shared_chunk/shared_chunk";
 
-@import "body/body";
+@import "root/body/body";
