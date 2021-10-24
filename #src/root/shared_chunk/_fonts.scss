@@ -64,14 +64,14 @@
 .font-lato-black {
   font-family: "Lato-Black";
 
-  &__24-gray {
+  &-24-gray {
     font-family: "Lato-Black";
     font-size: 1.5rem;
     line-height: 33/24 * 100%;
     color: #BDBDBD;
   }
 
-  &__55-uppercase-black {
+  &-55-uppercase-black {
     font-family: "Lato-Black";
     font-size: 3.4375rem;
     line-height: 66/55 * 100%;
@@ -80,14 +80,14 @@
     color: #000000;
   }
 
-  &__24-white {
+  &-24-white {
     font-family: "Lato-Black";
     font-size: 1.5rem;
     line-height: 30/24 * 100%;
     color: #FFFFFF;
   }
 
-  &__18-black {
+  &-18-black {
     font-family: "Lato-Black";
     font-size: 1.125rem;
     line-height: 25/18 * 100%;
@@ -98,7 +98,7 @@
 .font-lato-bold {
   font-family: "Lato-Bold";
 
-  &__14-uppercase-black {
+  &-14-uppercase-black {
     font-family: "Lato-Bold";
     font-size: 0.875rem;
     line-height: 17/14 * 100%;
@@ -107,14 +107,14 @@
     color: #222222;
   }
 
-  &__14-black {
+  &-14-black {
     font-family: "Lato-Bold";
     font-size: 0.875rem;
     line-height: 18/14 * 100%;
     color: #000000;
   }
 
-  &__14-blue {
+  &-14-blue {
     font-family: "Lato-Bold";
     font-size: 0.875rem;
     line-height: 17/14 * 100%;
@@ -125,28 +125,28 @@
 .font-lato-light {
   font-family: "Lato-Light";
 
-  &__18-black {
+  &-18-black {
     font-family: "Lato-Light";
     font-size: 1.125rem;
     line-height: 25/18 * 100%;
     color: #000000;
   }
 
-  &__18-white {
+  &-18-white {
     font-family: "Lato-Light";
     font-size: 1.125rem;
     line-height: 25/18 * 100%;
     color: #FFFFFF;
   }
 
-  &__21-white {
+  &-21-white {
     font-family: "Lato-Light";
     font-size: 1.3125rem;
     line-height: 29/21 * 100%;
     color: #FFFFFF;
   }
 
-  &__21-gray {
+  &-21-gray {
     font-family: "Lato-Light";
     font-size: 1.3125rem;
     line-height: 29/21 * 100%;
@@ -164,28 +164,28 @@
 .font-lato-regular {
   font-family: "Lato-Regular";
 
-  &__13-black {
+  &-13-black {
     font-family: "Lato-Regular";
     font-size: 0.8125rem;
     line-height: 17/13 * 100%;
     color: #000000;
   }
 
-  &__18-white {
+  &-18-white {
     font-family: "Lato-Regular";
     font-size: 1.125rem;
     line-height: 25/18 * 100%;
     color: #FFFFFF;
   }
 
-  &__14-gray {
+  &-14-gray {
     font-family: "Lato-Regular";
     font-size: 0.875rem;
     line-height: 19/14 * 100%;
     color: #4F4F4F;
   }
 
-  &__16-white {
+  &-16-white {
     font-family: "Lato-Regular";
     font-size: 1rem;
     line-height: 22/16 * 100%;
@@ -196,21 +196,21 @@
 .font-merriweather-black {
   font-family: "Merriweather-Black";
 
-  &__36-blue {
+  &-36-blue {
     font-family: "Merriweather-Black";
     font-size: 2.25rem;
     line-height: 50/36 * 100%;
     color: #005FA3;
   }
 
-  &__48-black {
+  &-48-black {
     font-family: "Merriweather-Black";
     font-size: 3rem;
     line-height: 69/48 * 100%;
     color: #333333;
   }
 
-  &__48-white {
+  &-48-white {
     font-family: "Merriweather-Black";
     font-size: 3rem;
     line-height: 69/48 * 100%;
@@ -221,13 +221,13 @@
 .font-merriweather-bold {
   font-family: "Merriweather-Bold";
 
-  &__48-black {
+  &-48-black {
     font-family: "Merriweather-Bold";
     font-size: 3rem;
     line-height: 66/48 * 100%;
   }
 
-  &__48-white {
+  &-48-white {
     font-family: "Merriweather-Bold";
     font-size: 3rem;
     line-height: 66/48 * 100%;

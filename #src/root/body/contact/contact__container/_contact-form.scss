@@ -1,0 +1,76 @@
+.block-form {
+  &__name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    @media (max-width: 500px) {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-content: space-around;
+    }
+
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.first-name__wrap,
+.last-name__wrap {
+  width: 100%;
+
+  input {
+    // Возможно должен быть другой цвет
+    color: #BDBDBD;
+
+    width: 100%;
+    background-color: transparent;
+    padding: 1rem 0;
+    border-bottom: 0.06rem solid #FFFFFF;
+  }
+}
+
+.block-form__first-name,
+.block-form__last-name {
+  color: #FFFFFF;
+}
+
+.first-name::placeholder,
+.last-name::placeholder {
+  color: #BDBDBD;
+}
+
+
+.block-form__message {
+  .message__wrap {
+    .message__text {
+      color: #FFFFFF;
+    }
+
+    input {
+      color: #BDBDBD;
+      width: 100%;
+      background-color: transparent;
+      border-bottom: 0.06rem solid #FFFFFF;
+      padding: 1rem 0 5rem 0;
+
+      @media (max-width: 500px) {
+        padding: 1rem 0 1rem 0;
+      }
+    }
+  }
+}
+
+.block-form__button {
+  width: 100%;
+  margin: 3rem 0 0 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  @media (max-width: 648px) {
+    margin: 3rem 0;
+    justify-content: center;
+  }
+}

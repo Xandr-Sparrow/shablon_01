@@ -1,6 +1,5 @@
 .first-screen {
-  background: url(/img/rectangle.png) no-repeat;
-  background-size: cover;
+  background: url(/img/rectangle.png) no-repeat center / cover;
   width: 100%;
   height: 100%;
 }
@@ -53,14 +52,8 @@
   }
 
   .slide__button {
-    display: inline-block;
-    max-width: max-content;
-    background: #005FA3;
-    padding: 1.1875rem 3.375rem;
-    text-align: center;
-    color: #FFFFFF;
-    margin: 6.1875rem 0 16.5rem 0;
-
+    margin: 6rem 0 16rem 0;
+    
     @media (max-width: 640px) {
       margin: 2rem auto;
     }

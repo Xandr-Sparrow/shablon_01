@@ -2,5 +2,21 @@
   margin: 0 auto;
   max-width: 1110px;
   width: 100%;
-  padding: 100px 0;
+  padding: 6.25rem 0;
+
+  @media (max-width:1110px) {
+    padding: 6rem 1rem;
+  }
+
+  @media (max-width:992px) {
+    padding: 5rem 1rem;
+  }
+
+  @media (max-width:768px) {
+    padding: 4rem 1rem;
+  }
+
+  @media (max-width:576px) {
+    padding: 2rem 1rem;
+  }
 }

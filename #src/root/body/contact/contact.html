@@ -1,41 +1,45 @@
 <section class="contact">
   <div class="contact__filter"></div>
   <div class="container contact__container body__view-size-padding-l">
-    <div class="block contact__block">
-      <h3 class="title font-merriweather-bold__48-white">Связь с нами</h3>
-      <p class="contact__text font-lato-light__18-white">У вас остались вопросы? Напишите нам - мы ответим <br> в
+    <div class="contact-info container__block">
+      <h3 class="title font-merriweather-bold-48-white">Связь с нами</h3>
+      <p class="contact-info__text font-lato-light-18-white">У вас остались вопросы? Напишите нам - мы ответим <br> в
         ближайшее время!</p>
-      <div class="contact__connection">
-        <a class="contact__tel tel" href="tel:+71112223344">
-          <img class="img__tel" src="img/c__tel.svg" alt="">
-          <span>8 (111) 222-33-44</span>
+      <div class="contact-info__connection">
+        <a class="contact-info__tel-email tel" href="tel:+71112223344">
+          <img src="img/c__tel.svg" alt="">
+          <span class="font-lato-light-21-white">
+            8 (111) 222-33-44
+          </span>
         </a>
-        <a class="contact__email" href="#"><img class="img__mail" src="img/c__mail.svg"
-            alt=""><span>order@buhone.ru</span></a>
+        <a class="contact-info__tel-email" href="#">
+          <img src="img/c__mail.svg" alt="">
+          <span class="font-lato-light-21-white">
+            order@buhone.ru
+          </span>
+        </a>
       </div>
     </div>
-    <div class="block contact__block">
-      <form action="">
-        <div class="block-2__name">
+      <form class="contact-form container__block" action="">
+        <div class="block-form__name">
           <div class="first-name__wrap">
-            <p class="block-2__first-name">Имя</p>
+            <p class="block-form__first-name">Имя</p>
             <input class="first-name" type="text" placeholder="Иван">
           </div>
           <div class="last-name__wrap">
-            <p class="block-2__last-name">Фамилия</p>
+            <p class="block-form__last-name">Фамилия</p>
             <input class="last-name" type="text" placeholder="Иванов">
           </div>
         </div>
-        <div class="block-2__message">
+        <div class="block-form__message">
           <div class="message__wrap">
             <p class="message__text">Сообщение</p>
             <input class="message__input" type="text" placeholder="Ваше сообщение">
           </div>
-          <div class="block-2__button">
-            <button>Отправить сообщение</button>
+          <div class="block-form__button">
+            <button class="button font-lato-regular-18-white">Отправить сообщение</button>
           </div>
         </div>
       </form>
-    </div>
   </div>
 </section>

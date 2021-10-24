@@ -1,13 +1,12 @@
-@import "block/block";
+@import "container__block";
 
 .container {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   width: 100%;
   gap: 10px;
 
-  @media (max-width: 640px) {
+  @media (max-width:992px) {
     flex-direction: column;
   }
 }
