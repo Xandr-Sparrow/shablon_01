@@ -1,0 +1,7 @@
+.container__block-1x3 {
+    width: calc(33.333% - 0.625rem);
+
+    @media (max-width:768px) {
+        width: 100%;
+    }
+}

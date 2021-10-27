@@ -9,14 +9,6 @@
   max-width: 69.75rem;
   padding: 8.75rem 0;
 
-  @media (max-width: 1150px) {
-    padding: 8rem 1rem;
-  }
-
-  @media (max-width: 640px) {
-    padding: 1rem;
-  }
-
   .title {
     margin-bottom: 6.375rem;
 
@@ -39,7 +31,6 @@
   @media (max-width: 420px) {
     grid: minmax(100px, 1fr) / minmax(100px, 1fr);
   }
-
 }
 
 .our-services__item {

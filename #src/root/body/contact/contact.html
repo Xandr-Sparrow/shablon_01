@@ -1,8 +1,8 @@
 <section class="contact">
   <div class="contact__filter"></div>
   <div class="container contact__container body__view-size-padding-l">
-    <div class="contact-info container__block">
-      <h3 class="title font-merriweather-bold-48-white">Связь с нами</h3>
+    <div class="contact-info container__block-1x2">
+      <h3 class="title contact__title font-merriweather-bold-48-white">Связь с нами</h3>
       <p class="contact-info__text font-lato-light-18-white">У вас остались вопросы? Напишите нам - мы ответим <br> в
         ближайшее время!</p>
       <div class="contact-info__connection">
@@ -20,26 +20,22 @@
         </a>
       </div>
     </div>
-      <form class="contact-form container__block" action="">
-        <div class="block-form__name">
-          <div class="first-name__wrap">
-            <p class="block-form__first-name">Имя</p>
-            <input class="first-name" type="text" placeholder="Иван">
-          </div>
-          <div class="last-name__wrap">
-            <p class="block-form__last-name">Фамилия</p>
-            <input class="last-name" type="text" placeholder="Иванов">
-          </div>
-        </div>
-        <div class="block-form__message">
-          <div class="message__wrap">
-            <p class="message__text">Сообщение</p>
-            <input class="message__input" type="text" placeholder="Ваше сообщение">
-          </div>
-          <div class="block-form__button">
-            <button class="button font-lato-regular-18-white">Отправить сообщение</button>
-          </div>
-        </div>
-      </form>
+    <form class="contact-form container__block-1x2" action="">
+      <div class="contact-form__wrap-1x2">
+        <p class="font-lato-regular-16-white">Имя</p>
+        <input class="contact-form__input font-lato-light-21-gray" type="text" placeholder="Иван">
+      </div>
+      <div class="contact-form__wrap-1x2">
+        <p class="font-lato-regular-16-white">Фамилия</p>
+        <input class="contact-form__input font-lato-light-21-gray" type="text" placeholder="Иванов">
+      </div>
+      <div class="contact-form__wrap-1x1">
+        <p class="font-lato-regular-16-white">Сообщение</p>
+        <textarea class="contact-form__input contact-form__input--message font-lato-light-21-gray" placeholder="Ваше сообщение" type="text"></textarea>
+      </div>
+      <div class="contact-form__button">
+        <button class="button font-lato-regular-18-white">Отправить сообщение</button>
+      </div>
+    </form>
   </div>
 </section>

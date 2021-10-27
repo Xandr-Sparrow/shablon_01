@@ -1,9 +1,0 @@
-.block {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-
-    @media (max-width:992px) {
-        width: 100%;
-    }
-}
