@@ -5,8 +5,6 @@
   font-family: 'Lato-Black';
   src: url(fonts/Lato-Black.ttf);
   font-display: swap;
-  font-style: normal;
-  font-weight: 900;
 }
 
 // Шрифт для меню и блока карточек "О нас"
@@ -14,8 +12,6 @@
   font-family: 'Lato-Bold';
   src: url(fonts/Lato-Bold.ttf);
   font-display: swap;
-  font-style: normal;
-  font-weight: 700;
 }
 
 // Шрифт для основных текстов
@@ -23,8 +19,6 @@
   font-family: 'Lato-Light';
   src: url(fonts/Lato-Light.ttf);
   font-display: swap;
-  font-style: normal;
-  font-weight: 300;
 }
 
 // Шрифт для блока инфо, кнопок и т.д.
@@ -32,8 +26,6 @@
   font-family: 'Lato-Regular';
   src: url(fonts/Lato-Regular.ttf);
   font-display: swap;
-  font-style: normal;
-  font-weight: 400;
 }
 
 // Шрифт для логотипа и титров
@@ -41,8 +33,6 @@
   font-family: 'Merriweather-Black';
   src: url(fonts/Merriweather-Black.ttf);
   font-display: swap;
-  font-style: normal;
-  font-weight: 900;
 }
 
 // Шрифт для первого экрана
@@ -50,15 +40,19 @@
   font-family: 'Merriweather-Bold';
   src: url(fonts/Merriweather-Bold.ttf);
   font-display: swap;
-  font-style: normal;
-  font-weight: 700;
 }
 
-.body {
+html,
+body {
   font-size: 16px;
-  @media (max-width: 550px) {
+
+  @media (max-width: 350px) {
     font-size: 12px;
   }
+}
+
+.underline {
+  text-decoration-line: underline;
 }
 
 .font-lato-black {
@@ -69,6 +63,7 @@
     font-size: 1.5rem;
     line-height: 33/24 * 100%;
     color: #BDBDBD;
+    font-weight: 900;
   }
 
   &-55-uppercase-black {
@@ -78,6 +73,7 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #000000;
+    font-weight: 900;
   }
 
   &-24-white {
@@ -85,6 +81,7 @@
     font-size: 1.5rem;
     line-height: 30/24 * 100%;
     color: #FFFFFF;
+    font-weight: 900;
   }
 
   &-18-black {
@@ -92,6 +89,7 @@
     font-size: 1.125rem;
     line-height: 25/18 * 100%;
     color: #000000;
+    font-weight: 900;
   }
 }
 
@@ -105,6 +103,7 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #222222;
+    font-weight: 700;
   }
 
   &-14-black {
@@ -112,6 +111,7 @@
     font-size: 0.875rem;
     line-height: 18/14 * 100%;
     color: #000000;
+    font-weight: 700;
   }
 
   &-14-blue {
@@ -119,6 +119,7 @@
     font-size: 0.875rem;
     line-height: 17/14 * 100%;
     color: #005FA3;
+    font-weight: 700;
   }
 }
 
@@ -130,6 +131,7 @@
     font-size: 1.125rem;
     line-height: 25/18 * 100%;
     color: #000000;
+    font-weight: 300;
   }
 
   &-18-white {
@@ -137,6 +139,7 @@
     font-size: 1.125rem;
     line-height: 25/18 * 100%;
     color: #FFFFFF;
+    font-weight: 300;
   }
 
   &-21-white {
@@ -144,6 +147,7 @@
     font-size: 1.3125rem;
     line-height: 29/21 * 100%;
     color: #FFFFFF;
+    font-weight: 300;
   }
 
   &-21-gray {
@@ -151,6 +155,7 @@
     font-size: 1.3125rem;
     line-height: 29/21 * 100%;
     color: #BDBDBD;
+    font-weight: 300;
   }
 
   &__14-black {
@@ -158,6 +163,7 @@
     font-size: 0.875rem;
     line-height: 19/14 * 100%;
     color: #000000;
+    font-weight: 300;
   }
 }
 
@@ -169,6 +175,7 @@
     font-size: 0.8125rem;
     line-height: 17/13 * 100%;
     color: #000000;
+    font-weight: 400;
   }
 
   &-18-white {
@@ -176,6 +183,7 @@
     font-size: 1.125rem;
     line-height: 25/18 * 100%;
     color: #FFFFFF;
+    font-weight: 400;
   }
 
   &-14-gray {
@@ -183,6 +191,7 @@
     font-size: 0.875rem;
     line-height: 19/14 * 100%;
     color: #4F4F4F;
+    font-weight: 400;
   }
 
   &-16-white {
@@ -190,6 +199,7 @@
     font-size: 1rem;
     line-height: 22/16 * 100%;
     color: #FFFFFF;
+    font-weight: 400;
   }
 }
 
@@ -201,6 +211,7 @@
     font-size: 2.25rem;
     line-height: 50/36 * 100%;
     color: #005FA3;
+    font-weight: 900;
   }
 
   &-48-black {
@@ -208,6 +219,7 @@
     font-size: 3rem;
     line-height: 69/48 * 100%;
     color: #333333;
+    font-weight: 900;
   }
 
   &-48-white {
@@ -215,6 +227,7 @@
     font-size: 3rem;
     line-height: 69/48 * 100%;
     color: #FFFFFF;
+    font-weight: 900;
   }
 }
 
@@ -225,6 +238,7 @@
     font-family: "Merriweather-Bold";
     font-size: 3rem;
     line-height: 66/48 * 100%;
+    font-weight: 700;
   }
 
   &-48-white {
@@ -232,5 +246,6 @@
     font-size: 3rem;
     line-height: 66/48 * 100%;
     color: #FFFFFF;
+    font-weight: 700;
   }
 }

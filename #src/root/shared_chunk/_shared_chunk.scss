@@ -16,6 +16,10 @@
   @media (max-width: 576px) {
     margin: .5rem 0 1rem 0;
   }
+
+  &-blue {
+    color: #1B5DA3;
+  }
 }
 
 // Слайдер
@@ -101,10 +105,14 @@
       background: #005FA3;
     }
 
-    &-grey {
-      // background: #005FA3;
-    }
+    // &-grey {
+    //   // background: #005FA3;
+    // }
   }
+}
+
+.slider-overflow-auto {
+  overflow: auto;
 }
 
 .tel {

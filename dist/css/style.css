@@ -49,54 +49,43 @@ picture {
     display: -ms-flexbox;
     display: flex;
     max-width: 100%;
+    max-height: 100%;
 }
 
 @font-face {
     font-family: "Lato-Black";
   src: url(fonts/Lato-Black.ttf);
   font-display: swap;
-  font-style: normal;
-  font-weight: 900;
 }
 
 @font-face {
     font-family: "Lato-Bold";
   src: url(fonts/Lato-Bold.ttf);
   font-display: swap;
-  font-style: normal;
-  font-weight: 700;
 }
 
 @font-face {
     font-family: "Lato-Light";
   src: url(fonts/Lato-Light.ttf);
   font-display: swap;
-  font-style: normal;
-  font-weight: 300;
 }
 
 @font-face {
     font-family: "Lato-Regular";
   src: url(fonts/Lato-Regular.ttf);
   font-display: swap;
-  font-style: normal;
-  font-weight: 400;
 }
 
 @font-face {
     font-family: "Merriweather-Black";
   src: url(fonts/Merriweather-Black.ttf);
   font-display: swap;
-  font-style: normal;
-  font-weight: 900;
 }
 
 @font-face {
     font-family: "Merriweather-Bold";
   src: url(fonts/Merriweather-Bold.ttf);
   font-display: swap;
-  font-style: normal;
-  font-weight: 700;
 }
 
 .body {
@@ -118,6 +107,7 @@ picture {
     font-size: 1.5rem;
     line-height: 137.5%;
     color: #BDBDBD;
+    font-weight: 900;
 }
 
 .font-lato-black-55-uppercase-black {
@@ -127,6 +117,7 @@ picture {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #000000;
+    font-weight: 900;
 }
 
 .font-lato-black-24-white {
@@ -134,6 +125,7 @@ picture {
     font-size: 1.5rem;
     line-height: 125%;
     color: #FFFFFF;
+    font-weight: 900;
 }
 
 .font-lato-black-18-black {
@@ -141,6 +133,7 @@ picture {
     font-size: 1.125rem;
     line-height: 138.8888888889%;
     color: #000000;
+    font-weight: 900;
 }
 
 .font-lato-bold {
@@ -154,6 +147,7 @@ picture {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #222222;
+    font-weight: 700;
 }
 
 .font-lato-bold-14-black {
@@ -161,6 +155,7 @@ picture {
     font-size: 0.875rem;
     line-height: 128.5714285714%;
     color: #000000;
+    font-weight: 700;
 }
 
 .font-lato-bold-14-blue {
@@ -168,6 +163,7 @@ picture {
     font-size: 0.875rem;
     line-height: 121.4285714286%;
     color: #005FA3;
+    font-weight: 700;
 }
 
 .font-lato-light {
@@ -179,6 +175,7 @@ picture {
     font-size: 1.125rem;
     line-height: 138.8888888889%;
     color: #000000;
+    font-weight: 300;
 }
 
 .font-lato-light-18-white {
@@ -186,6 +183,7 @@ picture {
     font-size: 1.125rem;
     line-height: 138.8888888889%;
     color: #FFFFFF;
+    font-weight: 300;
 }
 
 .font-lato-light-21-white {
@@ -193,6 +191,7 @@ picture {
     font-size: 1.3125rem;
     line-height: 138.0952380952%;
     color: #FFFFFF;
+    font-weight: 300;
 }
 
 .font-lato-light-21-gray {
@@ -200,6 +199,7 @@ picture {
     font-size: 1.3125rem;
     line-height: 138.0952380952%;
     color: #BDBDBD;
+    font-weight: 300;
 }
 
 .font-lato-light__14-black {
@@ -207,6 +207,7 @@ picture {
     font-size: 0.875rem;
     line-height: 135.7142857143%;
     color: #000000;
+    font-weight: 300;
 }
 
 .font-lato-regular {
@@ -218,6 +219,7 @@ picture {
     font-size: 0.8125rem;
     line-height: 130.7692307692%;
     color: #000000;
+    font-weight: 400;
 }
 
 .font-lato-regular-18-white {
@@ -225,6 +227,7 @@ picture {
     font-size: 1.125rem;
     line-height: 138.8888888889%;
     color: #FFFFFF;
+    font-weight: 400;
 }
 
 .font-lato-regular-14-gray {
@@ -232,6 +235,7 @@ picture {
     font-size: 0.875rem;
     line-height: 135.7142857143%;
     color: #4F4F4F;
+    font-weight: 400;
 }
 
 .font-lato-regular-16-white {
@@ -239,6 +243,7 @@ picture {
     font-size: 1rem;
     line-height: 137.5%;
     color: #FFFFFF;
+    font-weight: 400;
 }
 
 .font-merriweather-black {
@@ -250,6 +255,7 @@ picture {
     font-size: 2.25rem;
     line-height: 138.8888888889%;
     color: #005FA3;
+    font-weight: 900;
 }
 
 .font-merriweather-black-48-black {
@@ -257,6 +263,7 @@ picture {
     font-size: 3rem;
     line-height: 143.75%;
     color: #333333;
+    font-weight: 900;
 }
 
 .font-merriweather-black-48-white {
@@ -264,6 +271,7 @@ picture {
     font-size: 3rem;
     line-height: 143.75%;
     color: #FFFFFF;
+    font-weight: 900;
 }
 
 .font-merriweather-bold {
@@ -274,6 +282,7 @@ picture {
     font-family: "Merriweather-Bold";
     font-size: 3rem;
     line-height: 137.5%;
+    font-weight: 700;
 }
 
 .font-merriweather-bold-48-white {
@@ -281,6 +290,7 @@ picture {
     font-size: 3rem;
     line-height: 137.5%;
     color: #FFFFFF;
+    font-weight: 700;
 }
 
 .container__block-1x2 {
@@ -312,7 +322,6 @@ picture {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    width: 100%;
     gap: 0.625rem;
 }
 
@@ -348,6 +357,10 @@ picture {
     .title {
         margin: 0.5rem 0 1rem 0;
     }
+}
+
+.title-blue {
+    color: #1B5DA3;
 }
 
 .slider__slide {
@@ -460,6 +473,10 @@ picture {
 
 .slider__control-blue {
     background: #005FA3;
+}
+
+.slider-overflow-auto {
+    overflow: auto;
 }
 
 .tel {
@@ -1206,121 +1223,37 @@ picture {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    max-width: 69.75rem;
-    margin: 0 auto;
-    padding: 8.75rem 0;
 }
 
-@media (max-width: 1150px) {
-    .about-us {
-        padding: 8.75rem 1rem;
+.about-us__text {
+    max-width: 26.25rem;
+    margin-bottom: 6.25rem;
+}
+
+@media (max-width: 768px) {
+    .about-us__text {
+        max-width: 100%;
     }
 }
 
-@media (max-width: 640px) {
-    .about-us {
-        padding: 1rem;
-    }
-}
-
-.about-us__objects {
+.about-us__cards {
     display: grid;
-    grid: 1fr/1fr 1fr;
-}
-
-@media (max-width: 1089px) {
-    .about-us__objects {
-        grid: repeat(auto-fit, minmax(100px, 1fr))/1fr;
-    }
-}
-
-.about-us__objects .object__1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-}
-
-.about-us__objects .object__1 .title {
-    margin-right: 7.8125rem;
-}
-
-@media (max-width: 1089px) {
-    .about-us__objects .object__1 .title {
-        margin: 2rem 0;
-    }
-}
-
-@media (max-width: 640px) {
-    .about-us__objects .object__1 .title {
-        margin: 1rem 0;
-    }
-}
-
-.about-us__objects .object__1 .title span {
-    color: #1B5DA3;
-}
-
-.about-us__objects .object__1 .text {
-    color: #000000;
-    margin-right: 7.8125rem;
-}
-
-@media (max-width: 1089px) {
-    .about-us__objects .object__1 .text {
-        margin: 0;
-    }
-}
-
-.about-us__objects .object__2 {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 1.875rem;
-    width: 100%;
-    display: grid;
-    grid: 1fr 1fr/1fr 1fr;
-    justify-items: center;
 }
 
-@media (max-width: 1089px) {
-    .about-us__objects .object__2 {
-        grid: 1fr/1fr 1fr 1fr 1fr;
-        margin-top: 2rem;
-    }
-}
-
-@media (max-width: 940px) {
-    .about-us__objects .object__2 {
-        grid: 1fr 1fr/1fr 1fr;
-    }
-}
-
-@media (max-width: 550px) {
-    .about-us__objects .object__2 {
-        grid: 1fr 1fr 1fr 1fr/1fr;
-    }
-}
-
-.about-us__objects .object__2 .object__2-item {
+.about-us__card {
     position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     width: 100%;
-    height: 100%;
-    margin: auto;
 }
 
-.about-us__objects .object__2 .object__2-item .bg-item {
+.about-us__card-img {
+    position: absolute;
     width: 100%;
     height: 100%;
-    z-index: 0;
 }
 
-.about-us__objects .object__2 .object__2-item .object__2-item-wrap {
+.about-us__card-text {
     position: absolute;
     z-index: 1;
     display: -webkit-box;
@@ -1333,140 +1266,39 @@ picture {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    width: 100%;
     height: 100%;
-    padding: 1.875rem;
+    width: 100%;
+    padding: 2rem;
 }
 
-.about-us__objects .object__2 .object__2-item-wrap:hover {
+.about-us .object__2-item-wrap:hover {
     background: #005FA3;
 }
 
-.about-us__objects .object__2 .object__2-item-wrap:hover p {
+.about-us .object__2-item-wrap:hover p {
     color: #FFFFFF;
 }
 
-.about-us__objects .object__2 .object__2-item-wrap:hover a {
+.about-us .object__2-item-wrap:hover a {
     color: #FFFFFF;
 }
 
-.about-us__objects .object__2 .object__2-title {
+.about-us .object__2-title {
     text-transform: uppercase;
     color: #000000;
 }
 
-@media (max-width: 940px) {
-    .about-us__objects .object__2 .object__2-title {
-        font-size: 5rem;
-    }
-}
-
-@media (max-width: 700px) {
-    .about-us__objects .object__2 .object__2-title {
-        font-size: 4rem;
-    }
-}
-
-@media (max-width: 580px) {
-    .about-us__objects .object__2 .object__2-title {
-        font-size: 3rem;
-    }
-}
-
-@media (max-width: 550px) {
-    .about-us__objects .object__2 .object__2-title {
-        font-size: 6rem;
-    }
-}
-
-@media (max-width: 460px) {
-    .about-us__objects .object__2 .object__2-title {
-        font-size: 5rem;
-    }
-}
-
-.about-us__objects .object__2 .object__2-subtitle {
-    color: #000000;
-}
-
-@media (max-width: 940px) {
-    .about-us__objects .object__2 .object__2-subtitle {
-        font-size: 2rem;
-        line-height: 3rem;
-    }
-}
-
-@media (max-width: 650px) {
-    .about-us__objects .object__2 .object__2-subtitle {
-        font-size: 1.5rem;
-        line-height: 2rem;
-    }
-}
-
-@media (max-width: 550px) {
-    .about-us__objects .object__2 .object__2-subtitle {
-        font-size: 3rem;
-        line-height: 4.5rem;
-    }
-}
-
-@media (max-width: 460px) {
-    .about-us__objects .object__2 .object__2-subtitle {
-        font-size: 2rem;
-        line-height: 3rem;
-    }
-}
-
-.about-us__objects .object__2 a {
+.about-us .object__2-title a {
     -webkit-text-decoration-line: underline;
     text-decoration-line: underline;
     color: #005FA3;
 }
 
-@media (max-width: 940px) {
-    .about-us__objects .object__2 a {
-        font-size: 2rem;
-    }
-}
-
-@media (max-width: 650px) {
-    .about-us__objects .object__2 a {
-        font-size: 1.5rem;
-        line-height: 3rem;
-    }
-}
-
-@media (max-width: 580px) {
-    .about-us__objects .object__2 a {
-        font-size: 1rem;
-        line-height: 1.5rem;
-    }
-}
-
-@media (max-width: 550px) {
-    .about-us__objects .object__2 a {
-        font-size: 3rem;
-        line-height: 4.5rem;
-    }
-}
-
-@media (max-width: 460px) {
-    .about-us__objects .object__2 a {
-        font-size: 2rem;
-        line-height: 3rem;
-    }
-}
-
 .our-clients {
     background: #EBEBEB;
-    width: 100%;
 }
 
-.our-clients .our-clients__wrap {
-    max-width: 69.75rem;
-    width: 100%;
-    margin: 0 auto;
-    padding: 6.25rem 0;
+.our-clients__wrap {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1476,58 +1308,20 @@ picture {
     flex-direction: column;
 }
 
-@media (max-width: 1150px) {
-    .our-clients .our-clients__wrap {
-        padding: 6.25rem 1rem;
-    }
-}
-
-@media (max-width: 640px) {
-    .our-clients .our-clients__wrap {
-        padding: 1rem;
-    }
-}
-
-.our-clients .our-clients__wrap .title {
-    margin: 2.5rem 0 5rem 0;
-}
-
-@media (max-width: 640px) {
-    .our-clients .our-clients__wrap .title {
-        margin: 0.2rem 0;
-    }
-}
-
-.our-clients .slider {
-    width: 100%;
-    margin: 0 auto;
+.our-clients__slide {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-}
-
-.our-clients .slider .slide {
-    margin: 0 auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    overflow: auto;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    width: 100%;
-    padding-bottom: 3.125rem;
     gap: 1rem;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
 }
 
-.our-clients .slider .slide img {
+.our-clients__slide-img {
     cursor: pointer;
     -o-object-fit: cover;
     object-fit: cover;
