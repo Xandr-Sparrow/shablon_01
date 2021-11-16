@@ -11,7 +11,7 @@
   grid: repeat(auto-fit, minmax(10px, 1fr)) / 1fr 1fr 1fr;
   grid-gap: 1.875rem;
 
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
     grid: repeat(auto-fit, minmax(10px, 1fr)) / 1fr 1fr;
   }
 
