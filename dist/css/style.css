@@ -48,8 +48,8 @@ picture {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 @font-face {
@@ -88,14 +88,21 @@ picture {
   font-display: swap;
 }
 
-.body {
+html,
+body {
     font-size: 16px;
 }
 
-@media (max-width: 550px) {
-    .body {
+@media (max-width: 350px) {
+    html,
+body {
         font-size: 12px;
     }
+}
+
+.underline {
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
 }
 
 .font-lato-black {
@@ -1118,43 +1125,24 @@ picture {
 }
 
 .our-services {
-    width: 100%;
-    height: 100%;
     background: #EBEBEB;
 }
 
-.our-services__wrapper {
-    margin: 0 auto;
-    max-width: 69.75rem;
-    padding: 8.75rem 0;
-}
-
-.our-services__wrapper .title {
-    margin-bottom: 6.375rem;
-}
-
-@media (max-width: 640px) {
-    .our-services__wrapper .title {
-        margin-bottom: 0.8rem;
-    }
-}
-
-.our-services__wrap {
+.container-x3 {
     display: grid;
-    grid: repeat(auto-fit, minmax(100px, 1fr))/1fr 1fr 1fr;
+    grid: repeat(auto-fit, minmax(10px, 1fr))/1fr 1fr 1fr;
     grid-gap: 1.875rem;
 }
 
-@media (max-width: 800px) {
-    .our-services__wrap {
-        grid: repeat(auto-fit, minmax(100px, 1fr))/1fr 1fr;
-        grid-gap: 1rem;
+@media (max-width: 768px) {
+    .container-x3 {
+        grid: repeat(auto-fit, minmax(10px, 1fr))/1fr 1fr;
     }
 }
 
-@media (max-width: 420px) {
-    .our-services__wrap {
-        grid: minmax(100px, 1fr)/minmax(100px, 1fr);
+@media (max-width: 576px) {
+    .container-x3 {
+        grid: repeat(auto-fit, minmax(10px, 1fr))/1fr;
     }
 }
 
@@ -1166,14 +1154,7 @@ picture {
     -webkit-box-align: end;
     -ms-flex-align: end;
     align-items: flex-end;
-    background: none;
     cursor: pointer;
-}
-
-.our-services__item .our-services__img {
-    z-index: 0;
-    width: 100%;
-    height: 100%;
 }
 
 .our-services__item .our-services__gradient {
@@ -1187,7 +1168,6 @@ picture {
 }
 
 .our-services__item p {
-    color: #FFFFFF;
     position: absolute;
     padding: 2.8125rem;
     z-index: 1;
@@ -1201,8 +1181,6 @@ picture {
 
 @media (max-width: 419px) {
     .our-services__item p {
-        display: block;
-        width: 100%;
         padding: 0 0 2rem 0;
         text-align: center;
     }
@@ -1238,24 +1216,41 @@ picture {
 
 .about-us__cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template: minmax(200px, 1fr) minmax(200px, 1fr)/minmax(150px, 1fr) minmax(150px, 1fr);
     gap: 1.875rem;
 }
 
-.about-us__card {
-    position: relative;
-    width: 100%;
+@media (max-width: 1000px) {
+    .about-us__cards {
+        grid-template: minmax(150px, 200px) minmax(150px, 200px)/minmax(150px, 1fr) minmax(150px, 1fr);
+        align-self: center;
+    }
 }
 
-.about-us__card-img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+@media (max-width: 768px) {
+    .about-us__cards {
+        grid-template: minmax(255px, 1fr) minmax(255px, 1fr)/minmax(255px, 270px) minmax(255px, 270px);
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-us__cards {
+        grid-template: repeat(4, minmax(250px, 1fr))/1fr;
+    }
+}
+
+.about-us__card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
 }
 
 .about-us__card-text {
-    position: absolute;
-    z-index: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1269,29 +1264,21 @@ picture {
     height: 100%;
     width: 100%;
     padding: 2rem;
+    background: #EBEBEB;
 }
 
-.about-us .object__2-item-wrap:hover {
+@media (max-width: 576px) {
+    .about-us__card-text {
+        text-align: center;
+    }
+}
+
+.about-us__card-text:hover {
     background: #005FA3;
 }
 
-.about-us .object__2-item-wrap:hover p {
+.about-us__card-text:hover .text-hover {
     color: #FFFFFF;
-}
-
-.about-us .object__2-item-wrap:hover a {
-    color: #FFFFFF;
-}
-
-.about-us .object__2-title {
-    text-transform: uppercase;
-    color: #000000;
-}
-
-.about-us .object__2-title a {
-    -webkit-text-decoration-line: underline;
-    text-decoration-line: underline;
-    color: #005FA3;
 }
 
 .our-clients {

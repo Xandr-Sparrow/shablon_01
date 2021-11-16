@@ -1,8 +1,6 @@
 /.vscode
 /node_modules
-/gulpfile.js
 /package-lock.json
 /node_modules
-/package.json
 /update.txt
 /#src — копия
