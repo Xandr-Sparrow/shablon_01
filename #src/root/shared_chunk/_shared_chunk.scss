@@ -94,20 +94,32 @@
         opacity: 0.2;
         position: absolute;
         z-index: 0;
+      }
+    }
+
+    &-blue {
+      background: #005FA3;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    &-grey {
+      background: #FFFFFF;
+
+      &:hover {
+        opacity: 0.4;
+      }
+
+      &-p {
+        background: #FFFFFF;
 
         &:hover {
           opacity: 1;
         }
       }
     }
-
-    &-blue {
-      background: #005FA3;
-    }
-
-    // &-grey {
-    //   // background: #005FA3;
-    // }
   }
 }
 
