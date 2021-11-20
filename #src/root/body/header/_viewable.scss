@@ -1,0 +1,100 @@
+.hidden {
+  @media (max-width: 576px) {
+    display: none;
+  }
+}
+
+.viewable {
+  @media (min-width: 576px) {
+    display: none;
+  }
+}
+
+.hidden-menu__border {
+  border: 0.2rem solid rgba(0, 0, 0, 0.486);
+  width: 40%;
+  margin: .5rem 0;
+}
+
+
+
+/*стилизуем менюшку*/
+.hidden-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+  background-color: #ffffff;
+  max-height: 100%;
+  top: 0;
+  left: -100%;
+  transition: left .5s;
+  z-index: 2;
+  gap: .5rem;
+}
+
+/*скрываем инпут чекбокс*/
+.hidden-menu__ticker {
+  display: none;
+}
+
+/*общие стили значка-гамбургера, самого лэйбла*/
+.btn-menu {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 30%;
+  padding: 2px;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  cursor: pointer;
+  transition: left .5s;
+  z-index: 3;
+  width: 2.5rem;
+  transform: translateZ(0);
+}
+
+/*общие стили полосок*/
+.btn-menu span {
+  display: block;
+  height: 0.4rem;
+  background-color: #2b343c;
+  margin: 0.4rem 0 0;
+  transition: all .1s linear .5s;
+  position: relative;
+}
+
+/*прибиваем к верху лэйбла первую полоску*/
+.btn-menu span.first {
+  margin-top: 0;
+}
+
+/*при нажатии на бургер двигаем его и делаем другой фон бургеру*/
+.hidden-menu__ticker:checked~.btn-menu {
+  left: 88%;
+  background-color: #2b343c;
+}
+
+/*и дальше стили меняющие бургер, двигающие менюшку по событию - нажатие на значек бургера*/
+.hidden-menu__ticker:checked~.hidden-menu {
+  left: 0;
+}
+
+.hidden-menu__ticker:checked~.btn-menu span.first {
+  transform: rotate(45deg);
+  top: 0.6rem;
+  background-color: #fff;
+}
+
+.hidden-menu__ticker:checked~.btn-menu span.second {
+  opacity: 0;
+}
+
+.hidden-menu__ticker:checked~.btn-menu span.third {
+  transform: rotate(-45deg);
+  top: -0.6rem;
+  background-color: #fff;
+}

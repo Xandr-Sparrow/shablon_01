@@ -617,80 +617,7 @@ body {
 }
 
 .logo__text {
-    margin-left: 1.875rem;
-}
-
-.info {
-    display: grid;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 2rem;
-}
-
-@media (max-width: 630px) {
-    .info {
-        grid-template: 1fr 1fr/1fr 1fr;
-    }
-}
-
-@media (max-width: 500px) {
-    .info {
-        display: none;
-    }
-}
-
-.info__item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-line-pack: center;
-    align-content: center;
-    gap: 0.9375rem;
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-}
-
-.header__point:hover {
-    -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
-
-.header__menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
-
-@media (max-width: 500px) {
-    .header__menu {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-    }
+    margin-left: 1.5rem;
 }
 
 .menu-h {
@@ -757,10 +684,6 @@ body {
     -o-transition: left 0.5s;
     transition: left 0.5s;
     z-index: 2;
-}
-
-.hidden-menu li a:hover {
-    color: #fff;
 }
 
 /*скрываем инпут чекбокс*/
@@ -833,6 +756,86 @@ body {
     transform: rotate(-45deg);
     top: -0.6rem;
     background-color: #fff;
+}
+
+.info {
+    display: grid;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+@media (max-width: 768px) {
+    .info {
+        grid-template: 1fr 1fr/1fr 1fr;
+    }
+}
+
+@media (max-width: 576px) {
+    .info {
+        display: none;
+    }
+}
+
+.info__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    gap: 0.9375rem;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+}
+
+.header__point:hover {
+    -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+@media (max-width: 768px) {
+    .header {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+    }
+}
+
+.nav-info__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    gap: auto;
 }
 
 .first-screen {

@@ -1,66 +1,68 @@
-<header class="header body__view-size-padding-s">
-  <div class="logo header__logo">
-    <img src="img/logo.svg" alt="Логотип">
-    <span class="logo__text font-merriweather-black-36-blue">BuhOne</span>
-  </div>
-  <div class="nav-info header__nav-info">
-    <ul class="info navigation-info__info">
-      <a href="tel:+71112223344" class="info__item tel">
-        <img src="img/tel.svg" alt="">
-        <span class="font-lato-regular-13-black">
-          8 (111) 222-33-44
-        </span>
-      </a>
-      <li class="info__item">
-        <img src="img/clock.svg" alt="">
-        <span class="font-lato-regular-13-black">
-          Пн-Пт 10:00-18:00
-        </span>
-      </li>
-      <li class="info__item">
-        <img src="img/mail.svg" alt="">
-        <span class="font-lato-regular-13-black">
-          order@buhone.ru
-        </span>
-      </li>
-      <li class="info__item">
-        <img src="img/geo.svg" alt="">
-        <span class="font-lato-regular-13-black">
-          Невский пр. 130
-        </span>
-      </li>
-    </ul>
-    <nav class="header__nav">
-      <ul class="header__menu nav-hidden">
-        <li class="header__point">
+<header class="header">
+  <nav class="header__nav body__view-size-padding-s">
+    <div class="logo header__logo">
+      <div class="logo__img">
+        <img src="img/logo.svg" alt="Логотип">
+      </div>
+      <span class="logo__text font-merriweather-black-36-blue">BuhOne</span>
+    </div>
+    <div class="nav-info header__nav-info hidden">
+      <ul class="info header__info nav-info__container">
+        <a href="tel:+71112223344" class="info__item tel">
+          <img src="img/tel.svg" alt="">
+          <span class="font-lato-regular-13-black">
+            8 (111) 222-33-44
+          </span>
+        </a>
+        <li class="info__item">
+          <img src="img/clock.svg" alt="">
+          <span class="font-lato-regular-13-black">
+            Пн-Пт 10:00-18:00
+          </span>
+        </li>
+        <li class="info__item">
+          <img src="img/mail.svg" alt="">
+          <span class="font-lato-regular-13-black">
+            order@buhone.ru
+          </span>
+        </li>
+        <li class="info__item">
+          <img src="img/geo.svg" alt="">
+          <span class="font-lato-regular-13-black">
+            Невский пр. 130
+          </span>
+        </li>
+      </ul>
+      <ul class="nav header__nav nav-info__container">
+        <li class="nav__item">
           <a href="#">
             <span class="font-lato-bold-14-uppercase-black">
               Главная
             </span>
           </a>
         </li>
-        <li class="header__point">
+        <li class="nav__item">
           <a href="#">
             <span class="font-lato-bold-14-uppercase-black">
               услуги
             </span>
           </a>
         </li>
-        <li class="header__point">
+        <li class="nav__item">
           <a href="#">
             <span class="font-lato-bold-14-uppercase-black">
               кейсы
             </span>
           </a>
         </li>
-        <li class="header__point">
+        <li class="nav__item">
           <a href="#">
             <span class="font-lato-bold-14-uppercase-black">
               о компании
             </span>
           </a>
         </li>
-        <li class="header__point">
+        <li class="nav__item">
           <a href="#">
             <span class="font-lato-bold-14-uppercase-black">
               контакты
@@ -68,11 +70,11 @@
           </a>
         </li>
       </ul>
-    </nav>
-  </div>
-  <div class="hidden__element">
+    </div>
+  </nav>
+  <div class="viewable header__viewable">
     <!-- Иконка меню ☰ -->
-    <input type="checkbox" id="hmt" class="hidden-menu-ticker">
+    <input type="checkbox" id="hmt" class="hidden-menu__ticker">
     <!-- Гамбургер - крестик -->
     <label class="btn-menu" for="hmt">
       <span class="first"></span>
@@ -80,66 +82,67 @@
       <span class="third"></span>
     </label>
     <!-- Тело меню -->
-    <ul class="hidden-menu menu-h">
-      <li class="header__point">
+    <ul class="hidden-menu">
+      <li class="header__nav">
         <a href="#">
           <span class="font-lato-bold-14-uppercase-black">
             Главная
           </span>
         </a>
       </li>
-      <li class="header__point">
+      <li class="header__nav">
         <a href="#">
           <span class="font-lato-bold-14-uppercase-black">
             услуги
           </span>
         </a>
       </li>
-      <li class="header__point">
+      <li class="header__nav">
         <a href="#">
           <span class="font-lato-bold-14-uppercase-black">
             кейсы
           </span>
         </a>
       </li>
-      <li class="header__point">
+      <li class="header__nav">
         <a href="#">
           <span class="font-lato-bold-14-uppercase-black">
             о компании
           </span>
         </a>
       </li>
-      <li class="header__point">
+      <li class="header__nav">
         <a href="#">
           <span class="font-lato-bold-14-uppercase-black">
             контакты
           </span>
         </a>
       </li>
-      <li class="hidden__element-border hidden__info"></li>
-      <li class="hidden__info">
-        <a href="tel:+71112223344" class="tel">
+      <li class="hidden-menu__border">
+      </li>
+      <li class="info__item">
+        <a class="info__item" href="tel:+71112223344" class="tel">
           <img src="img/tel.svg" alt="">
-          <span class="hidden__info">
+          <span class="font-lato-regular-13-black">
             8 (111) 222-33-44
           </span>
         </a>
       </li>
-      <li class="hidden__info">
+      <li class="info__item">
         <img src="img/clock.svg" alt="">
-        <span class="top-line__text">
+        <span class="font-lato-regular-13-black">
           Пн-Пт 10:00-18:00
         </span>
       </li>
-      <li class="hidden__info">
+      <li class="info__item">
         <img src="img/mail.svg" alt="">
-        <span class="top-line__text">
+        <span class="font-lato-regular-13-black">
           order@buhone.ru
         </span>
       </li>
-      <li class="hidden__info">
+      <li class="info__item">
         <img src="img/geo.svg" alt="">
-        <span class="top-line__text">
+        <span class="font-lato-regular-13-black">
           Невский пр. 130
         </span>
       </li>

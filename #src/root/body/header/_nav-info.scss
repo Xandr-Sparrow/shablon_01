@@ -1,0 +1,11 @@
+.nav-info {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  width: 100%;
+  gap: 1rem;
+
+  @media (max-width:576px) {
+    display: none;
+  }
+}

@@ -3,7 +3,11 @@
   justify-content: center;
   align-items: center;
 
+  &__img source, img {
+    max-width: max-content;
+  }
+
   &__text {
-    margin-left: 1.875rem;
+    margin-left: 1.5rem;
   }
 }
