@@ -2,8 +2,13 @@
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
+  max-width: 42rem;
   width: 100%;
   gap: 1rem;
+
+  @media (max-width:768px) {
+    max-width: 100%;
+  }
 
   @media (max-width:576px) {
     display: none;
