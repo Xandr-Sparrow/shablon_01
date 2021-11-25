@@ -7,14 +7,25 @@
   }
 
   &__slide {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(150px, 1fr));
     gap: 1rem;
-    align-items: center;
-    flex-flow: wrap;
+
+    @media (max-width:768px) {
+      grid-template-columns: repeat(2, minmax(150px, 1fr));
+
+      picture {
+        justify-content: center;
+      }
+    }
 
     @media (max-width:576px) {
-      flex-flow: column wrap;
+      grid-template-columns: repeat(1, minmax(150px, 1fr));
+      gap: 0;
+
+      img {
+        width: 100%;
+      }
     }
 
     &-img {

@@ -224,6 +224,10 @@ body {
     line-height: 69/48 * 100%;
     color: #333333;
     font-weight: 900;
+
+    @media (max-width:440px) {
+      font-size: 2rem;
+    }
   }
 
   &-48-white {
@@ -251,5 +255,8 @@ body {
     line-height: 66/48 * 100%;
     color: #FFFFFF;
     font-weight: 700;
+    @media (max-width:440px) {
+      font-size: 2rem;
+    }
   }
 }
