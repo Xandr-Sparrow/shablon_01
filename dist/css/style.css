@@ -510,10 +510,6 @@ body {
     opacity: 1;
 }
 
-.slider-overflow-auto {
-    overflow: auto;
-}
-
 .tel {
     text-decoration: none;
 }
@@ -637,8 +633,15 @@ body {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    max-width: 42rem;
     width: 100%;
     gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    .nav-info {
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 576px) {
@@ -653,8 +656,12 @@ body {
     }
 }
 
+.hidden-menu {
+  /*и дальше стили меняющие бургер, двигающие менюшку по событию - нажатие на значек бургера*/
+}
+
 @media (min-width: 576px) {
-    .viewable {
+    .hidden-menu {
         display: none;
     }
 }
@@ -665,8 +672,7 @@ body {
     margin: 0.5rem 0;
 }
 
-/*стилизуем менюшку*/
-.hidden-menu {
+.hidden-menu__items {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -692,13 +698,11 @@ body {
     gap: 0.5rem;
 }
 
-/*скрываем инпут чекбокс*/
 .hidden-menu__ticker {
     display: none;
 }
 
-/*общие стили значка-гамбургера, самого лэйбла*/
-.btn-menu {
+.hidden-menu__btn {
     color: #fff;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 30%;
@@ -716,8 +720,7 @@ body {
     transform: translateZ(0);
 }
 
-/*общие стили полосок*/
-.btn-menu span {
+.hidden-menu__btn-item {
     display: block;
     height: 0.4rem;
     background-color: #2b343c;
@@ -728,23 +731,20 @@ body {
     position: relative;
 }
 
-/*прибиваем к верху лэйбла первую полоску*/
-.btn-menu span.first {
+.hidden-menu__btn .first {
     margin-top: 0;
 }
 
-/*при нажатии на бургер двигаем его и делаем другой фон бургеру*/
-.hidden-menu__ticker:checked ~ .btn-menu {
+.hidden-menu__ticker:checked ~ .hidden-menu__btn {
     left: 88%;
     background-color: #2b343c;
 }
 
-/*и дальше стили меняющие бургер, двигающие менюшку по событию - нажатие на значек бургера*/
-.hidden-menu__ticker:checked ~ .hidden-menu {
+.hidden-menu .hidden-menu__ticker:checked ~ .hidden-menu__items {
     left: 0;
 }
 
-.hidden-menu__ticker:checked ~ .btn-menu span.first {
+.hidden-menu__ticker:checked ~ .hidden-menu__btn .first {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -752,11 +752,11 @@ body {
     background-color: #fff;
 }
 
-.hidden-menu__ticker:checked ~ .btn-menu span.second {
+.hidden-menu__ticker:checked ~ .hidden-menu__btn .second {
     opacity: 0;
 }
 
-.hidden-menu__ticker:checked ~ .btn-menu span.third {
+.hidden-menu__ticker:checked ~ .hidden-menu__btn .third {
     -webkit-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
@@ -1060,19 +1060,34 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     gap: 1rem;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+}
+
+@media (max-width: 576px) {
+    .our-clients__slide {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+    }
 }
 
 .our-clients__slide-img {
     cursor: pointer;
     -o-object-fit: cover;
     object-fit: cover;
+}
+
+.slider-overflow-auto {
+    overflow: auto;
 }
 
 .reviews__slide {

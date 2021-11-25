@@ -73,7 +73,7 @@
   }
 
   // При нажатии на инпут изменяется цвет лейбла
-  &__ticker:checked~.hidden-menu__btn {
+  &__ticker:checked~&__btn {
     left: 88%;
     background-color: #2b343c;
   }
