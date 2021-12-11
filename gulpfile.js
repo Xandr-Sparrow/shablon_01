@@ -13,7 +13,7 @@ const sass = require("gulp-sass")(require("sass"));
 const cssnano = require("gulp-cssnano");
 const plumber = require("gulp-plumber");
 const panini = require("panini");
-const image = require("gulp-image");
+// const image = require("gulp-image");
 const del = require("del");
 const notify = require("gulp-notify");
 const browserSync = require("browser-sync").create();
@@ -230,16 +230,16 @@ function images(cb) {
     )
     .pipe(dest(path.build.images))
     .pipe(src(path.src.images))
-    .pipe(image({
-      pngquant: true,
-      optipng: false,
-      zopflipng: true,
-      jpegRecompress: false,
-      mozjpeg: true,
-      gifsicle: true,
-      svgo: true,
-      concurrent: 10
-    }))
+    // .pipe(image({
+    //   pngquant: true,
+    //   optipng: false,
+    //   zopflipng: true,
+    //   jpegRecompress: false,
+    //   mozjpeg: true,
+    //   gifsicle: true,
+    //   svgo: true,
+    //   concurrent: 10
+    // }))
     .pipe(dest(path.build.images))
     .pipe(browserSync.reload({
       stream: true

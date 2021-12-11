@@ -228,6 +228,10 @@ body {
     @media (max-width:440px) {
       font-size: 2rem;
     }
+
+    @media (max-width:380px) {
+      font-size: 1.5rem;
+    }
   }
 
   &-48-white {
@@ -255,8 +259,13 @@ body {
     line-height: 66/48 * 100%;
     color: #FFFFFF;
     font-weight: 700;
+
     @media (max-width:440px) {
       font-size: 2rem;
+    }
+
+    @media (max-width:360px) {
+      font-size: 1.5rem;
     }
   }
 }
